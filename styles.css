@@ -1,3 +1,8 @@
 body {
-    background-color: powderblue;
+    background-image: url(images/Background.png);
+  background-repeat: repeat;
+  }
+
+  #roh {
+    z-index: 7;
   }
