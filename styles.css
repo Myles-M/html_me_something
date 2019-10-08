@@ -3,6 +3,66 @@ body {
   background-repeat: repeat;
   }
 
-  #roh {
-    z-index: 7;
+  #BGpic {
+    position: fixed;
+  }
+  
+ 
+  #titleBox {
+    position: relative;
+    height: auto;
+    width: 100%;  
+    max-width: 1200px;
+   margin:  -9px 0px;
+  }
+
+  #titleBox img{
+    height: auto;
+    width: auto;
+    max-width: 1200px;
+  }
+
+  main{
+    position: relative;
+    height: 100%;
+    max-width: 1275px;
+  }
+
+#container {
+ position: relative;
+right: 0px;
+ width: 100%;
+
+max-width: 1200px;
+}
+
+.contained{
+  position: relative;
+  right: 0px;
+  width: 100%;
+ 
+
+}
+
+.contained img{
+  position: relative;
+  height: auto;
+ width: 100%;
+ right: 0px;
+ top: 0px;
+}
+
+  .innerText {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+   color: lawngreen;
+    width: 50%;  
+    background-color: red;  
+  }
+
+  #footer_frame img{
+    position: relative;
+    max-width: 1200px;
+    
   }
