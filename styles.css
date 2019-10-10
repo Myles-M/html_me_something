@@ -1,25 +1,41 @@
 body {
-    background-image: url(images/Background.png);
-  background-repeat: repeat;
+    background-image: url(images/back_img.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(176, 252, 0);
+  text-shadow: 2px 2px 12px rgb(0, 255, 85), 15px 0 8em blue;
+  
   }
-
+/* 
   #BGpic {
     position: fixed;
-  }
+  } */
   
  
   #titleBox {
     position: relative;
-    height: auto;
-    width: 100%;  
-    max-width: 1200px;
-   margin:  -9px 0px;
+    height: auto;    
+    width: 1200px;  
+    margin:  -9px 0px;
+  
   }
 
   #titleBox img{
+    position: relative;
     height: auto;
-    width: auto;
     max-width: 1200px;
+   
+   
+  }
+
+  .titletext{
+    position: absolute;
+    font-family: 'VT323', monospace;
+ width: 100%;
+   top: -38px;
+   text-align: center;
+   font-size: 2.4em;
+   
   }
 
   main{
@@ -31,17 +47,14 @@ body {
 #container {
  position: relative;
 right: 0px;
- width: 100%;
-
-max-width: 1200px;
+width: 1200px;
 }
 
 .contained{
   position: relative;
   right: 0px;
   width: 100%;
- 
-
+  margin: 10px 0 0 0;
 }
 
 .contained img{
@@ -54,15 +67,43 @@ max-width: 1200px;
 
   .innerText {
     position: absolute;
+    font-family: 'VT323', monospace;
     top: 5%;
     right: 10%;
-   color: lawngreen;
-    width: 50%;  
-    background-color: red;  
+    font-size: 24px;
+    width: 50%;    
+  }
+
+  #footer_frame{
+    position: relative;
+    width: 1200px;
   }
 
   #footer_frame img{
     position: relative;
-    max-width: 1200px;
+    width: 1200px;
+    margin: 10px 0 -15px 0;
+    height: auto;
+    padding: 0px;
+    bottom: 0px,
     
+  }
+
+  .footertext{
+    position: absolute;
+    font-family: 'VT323', monospace;
+    width: 100%;
+   top: -7px;
+   text-align: center;
+   font-size:1em;
+  
+  }
+
+.footertext p{
+  position: absolute;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  bottom: 2px;
   }
